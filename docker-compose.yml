@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  jenkins:
+    image: jenkinsci/blueocean
+    user: root
+    ports:
+      - 9000:8080
+      - 50000:50000
